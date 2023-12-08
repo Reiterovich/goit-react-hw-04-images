@@ -2,7 +2,7 @@ import axios from 'axios';
 import { API_KEY } from '../ApiKey/ApiKey';
 
 export async function funSearch(value, page) {
-  return axios
+  return await axios
     .get('https://pixabay.com/api/', {
       params: {
         key: API_KEY,

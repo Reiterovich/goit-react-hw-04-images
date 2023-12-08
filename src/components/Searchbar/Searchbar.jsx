@@ -20,11 +20,7 @@ export const Searchbar = ({ onSubmit }) => {
   return (
     <header className="Searchbar">
       <form onSubmit={hendleSubmit} className="SearchForm">
-        <button
-          // onClick={this.props.loaderOn}
-          type="submit"
-          className="SearchForm-button"
-        >
+        <button type="submit" className="SearchForm-button">
           <span className="SearchForm-button-label">Search</span>
         </button>
 
